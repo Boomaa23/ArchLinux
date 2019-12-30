@@ -32,7 +32,7 @@ Assume all shortcuts include Alt (default modifier). U/D/L/R are moves with the 
 Shift + E       Exit (exits back to shell)
 Shift + R       Reload in place (reloads styling w/o restart)
 Shift + Q       Quit current application (usually Ctrl + W)
-Enter           xterm window (terminal [emulator])
+N               xterm window (terminal [emulator])
 D               Open dmenu (start typing to open files)
 R               Resize windows (drag window bar, toggle disable)
 F               Fullscreen (on currently focused window)
