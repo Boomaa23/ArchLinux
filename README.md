@@ -18,13 +18,15 @@ sda
 ```
 
 ## Arch Package List
-Setup/General: `man nano vim vi sudo grub os-prober efibootmgr dosfstools binutils git`
+Setup/General: `man nano vim vi sudo grub os-prober efibootmgr dosfstools binutils git gdisk`
 
 Networking: `dhcpcd net-tools iproute2 iputils wpa_supplicant`
 
-Display: `i3 dmenu feh xorg-server xorg-xinit xterm ttf-dejavu`
+Display: `i3 dmenu feh xorg-server xorg-xinit xterm ttf-dejavu nautilus`
 
-Other: `intellij-idea-community-edition lynx cowsay neofetch wget`
+Other: `intellij-idea-community-edition libreoffice-still lynx cowsay neofetch wget iotop pacman-contrib`
+
+AUR: `google-chrome`
 
 ## i3 Shortcuts
 Assume all shortcuts include Alt (default modifier). U/D/L/R are moves with the shift key, and focus changes without.
@@ -227,6 +229,10 @@ Start using this account and `sudo` instead of the root.
 	* `nano ~/.config/i3/config`
 	* Add this line somewhere: `exec_always xrdb -merge ~/.Xresources`
   
+#### Installing AUR packages
+Packages from the AUR repository cannot be downloaded through `pacman -S`. As a workaround, I have written a script that automates the process of installing said packages. To use it, download the script using the command below and use it like pacman, where each desired package is appended to the parameter of the command. Note that this puts the cloned packages into folders in the current working directory (in this case ~/Downloads) and does not delete it. 
+	* `curl https://raw.githubusercontent.com/Boomaa23/ArchLinux/master/aur.sh --output /home/Downloads/aur.sh`
+
 ## Resources
 * Official Arch installation guide: https://wiki.archlinux.org/index.php/installation_guide
 * Step-by-Step guide (some errors): https://www.ostechnix.com/install-arch-linux-latest-version/
