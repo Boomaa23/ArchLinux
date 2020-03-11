@@ -24,9 +24,11 @@ Networking: `dhcpcd net-tools iproute2 iputils wpa_supplicant`
 
 Display: `i3 dmenu feh xorg-server xorg-xinit xterm ttf-dejavu nautilus`
 
-Other: `intellij-idea-community-edition libreoffice-still lynx cowsay neofetch wget iotop pacman-contrib`
+Programming: `go kotlin intellij-idea-community-edition openjdk11-src php python python3 nodejs`
 
-AUR: `google-chrome`
+Other: `libreoffice-still lynx cowsay neofetch wget iotop pacman-contrib wireshark-qt vlc wavemon pavucontrol zip unzip picom openvpn remmina nmap calc notepadqq`
+
+AUR: `google-chrome qdirstat md2pdf pong obs-studio-git gscreenshot`
 
 ## i3 Shortcuts
 Assume all shortcuts include Alt (default modifier). U/D/L/R are moves with the shift key, and focus changes without.
